@@ -1,13 +1,12 @@
 import { fetchMetadata } from "frames.js/next";
 import { Metadata } from "next";
+import { appURL } from "./utils";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
     title: "Slot Machine",
     other: {
-      ...(await fetchMetadata(
-        new URL("/frames", process.env.VERCEL_URL || "http://localhost:3000")
-      )),
+      ...(await fetchMetadata(new URL("/frames", appURL()))),
     },
   };
 }
