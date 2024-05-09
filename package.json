@@ -1,7 +1,7 @@
 {
   "name": "slot-machine-frame",
   "version": "0.0.5",
-  "private": true,
+  "private": false,
   "type": "module",
   "dependencies": {
     "frames.js": "^0.13.2",
