@@ -18,7 +18,7 @@ export const POST = frames(async (ctx: any) => {
     image: `${baseUrl}/images/slotMachine/${randomIndex}.png`,
     buttons: [
       <Button action="post" key="1" target={isWinner ? "/claim" : "/"}>
-        {isWinner ? "Claim your prize!" : "Try again"}
+        {isWinner ? "View your prize!" : "Try again"}
       </Button>,
     ],
   };
