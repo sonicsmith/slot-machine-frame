@@ -12,5 +12,13 @@ export async function generateMetadata(): Promise<Metadata> {
 }
 
 export default async function Home() {
-  return <div>Slot Machine</div>;
+  return (
+    <div>
+      Slot Machine
+      <p>
+        [Slot machine image design credit to
+        https://codepen.io/tangxuguo/pen/xqrNmx]
+      </p>
+    </div>
+  );
 }
