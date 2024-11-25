@@ -7,7 +7,7 @@ Simple OpenFrames Slot Machine built with Frames.js Next.
 
 Feel free to reuse this code in any way you see fit!
 
-Meme coins welcome: 0x91e2FD8c74C89323Ad15FfC3FcFb05545BdBb020
+Meme coins welcome: 0x26aE381cB594D6f4E0C3B4EC393Dcf67b0C9711f (sonicsmith.base.eth)
 
 ### Installation
 
